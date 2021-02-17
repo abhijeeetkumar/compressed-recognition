@@ -3,9 +3,9 @@ import numpy as np
 
 utils_module = Extension('cva',
 		sources = ['main.c'],
-		include_dirs=[np.get_include(), './ffmpeg_lib/include/'],
+		include_dirs=[np.get_include(), '/home/mdl/amk7371/ffmpeg_lib/include/'],
 		extra_compile_args=['-DNDEBUG', '-O3', '-std=c99'],
-		extra_link_args=['-L./ffmpeg_lib/lib/']
+		extra_link_args=['-L/home/mdl/amk7371/ffmpeg_lib/lib/']
 )
 
 setup ( name = 'cva',
