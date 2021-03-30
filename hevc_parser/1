@@ -1,2 +1,0 @@
-usage: hevc_parser.py [-h] [--report_file REPORT_FILE] [--nostdout] video_file
-hevc_parser.py: error: unrecognized arguments: 2 /tmp/1.log
