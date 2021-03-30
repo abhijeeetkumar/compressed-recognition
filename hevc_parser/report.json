@@ -1,0 +1,17 @@
+{
+    "per_frame": [
+        {
+            "mean_qp": 33.644573935275986,
+            "min_qp": 21,
+            "max_qp": 37,
+            "pkt_size": 8328,
+            "key_frame": 1,
+            "pict_type": "I"
+        }
+    ],
+    "bit_rate": "unknown",
+    "width": 340,
+    "height": 256,
+    "avg_frame_rate": "25/1",
+    "codec_name": "hevc"
+}
